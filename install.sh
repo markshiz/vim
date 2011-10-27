@@ -1,5 +1,5 @@
 rm -rf ~/.vimrc
 rm -rf ~/.gvimrc
 
-ln -s ./vimrc ~/.vimrc
-ln -s ./gvimrc ~/.gvimrc
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
