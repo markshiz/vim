@@ -5,13 +5,13 @@ set backspace=2     " more powerful backspacing
 syntax on
 filetype plugin indent on
 
-set bg=dark
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set hlsearch
 set number
-colors desert
+colors ir_black
+set bg=light
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
