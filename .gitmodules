@@ -3,4 +3,8 @@
 	url = git://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
-	url = https://github.com/motemen/git-vim.git
+    url = https://github.com/motemen/git-vim.git
+    ignore = all
+[submodule "bundle/vim-git-branch-info"]
+	path = bundle/vim-git-branch-info
+	url = https://github.com/taq/vim-git-branch-info.git
