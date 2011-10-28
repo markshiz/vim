@@ -12,4 +12,6 @@ set shiftwidth=4
 set expandtab
 set hlsearch
 set laststatus=2 " Enables the status line at the bottom of Vim
-set statusline=%{fugitive#statusline()}
+if exists('fugitive#statusline') 
+    set statusline=%{fugitive#statusline()}
+endif
