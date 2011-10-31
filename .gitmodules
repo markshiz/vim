@@ -10,5 +10,5 @@
 	url = https://github.com/taq/vim-git-branch-info.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
-	url = git://github.com/markshiz/snipmate.vim.git
+	url = git@github.com:markshiz/snipmate.vim.git 
   ignore = all
