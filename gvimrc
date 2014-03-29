@@ -10,4 +10,4 @@ colorscheme ir_black
 set bg=light               " Background.
 set bg=dark 
 set guioptions-=r                 " Don't show right scrollbar
-
+set vb t_vb=
