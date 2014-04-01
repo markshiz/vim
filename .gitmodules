@@ -12,3 +12,9 @@
 	path = bundle/vim-snipmate
 	url = https://github.com/markshiz/snipmate.vim.git 
 	ignore = all
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/MatchTag"]
+	path = bundle/MatchTag
+	url = https://github.com/gregsexton/MatchTag
