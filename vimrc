@@ -28,6 +28,8 @@ so ~/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim
 so ~/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim
 so ~/.vim/bundle/MatchTag/ftplugin/html.vim
 so ~/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+so ~/.vim/bundle/vim-ruby/ftplugin/eruby.vim
+so ~/.vim/bundle/vim-ruby/ftplugin/ruby.vim
 
 set laststatus=2 " Enables the status line at the bottom of Vim
 
