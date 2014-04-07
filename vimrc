@@ -11,25 +11,14 @@ set shiftwidth=2
 set expandtab
 set hlsearch
 set number
+set t_Co=256
 colors ir_black
 set bg=light
 set autoindent
 set cindent
 
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
-
-" when pathogen dies mysteriously, this seems to work
-so ~/.vim/bundle/vim-git/plugin/git.vim
-so ~/.vim/bundle/vim-commentary/plugin/commentary.vim
-so ~/.vim/bundle/vim-fugitive/plugin/fugitive.vim
-so ~/.vim/bundle/vim-snipmate/plugin/snipMate.vim
-so ~/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim
-so ~/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim
-so ~/.vim/bundle/MatchTag/ftplugin/html.vim
-so ~/.vim/bundle/nerdtree/plugin/NERD_tree.vim
-so ~/.vim/bundle/vim-ruby/ftplugin/eruby.vim
-so ~/.vim/bundle/vim-ruby/ftplugin/ruby.vim
 
 set laststatus=2 " Enables the status line at the bottom of Vim
 
