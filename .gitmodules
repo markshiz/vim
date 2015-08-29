@@ -5,9 +5,6 @@
 	path = bundle/vim-git
 	url = https://github.com/motemen/git-vim.git
 	ignore = all
-[submodule "bundle/vim-git-branch-info"]
-	path = bundle/vim-git-branch-info
-	url = https://github.com/taq/vim-git-branch-info.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = https://github.com/markshiz/snipmate.vim.git 
@@ -33,3 +30,6 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
