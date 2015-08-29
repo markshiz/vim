@@ -22,12 +22,7 @@ call pathogen#helptags()
 
 set laststatus=2 " Enables the status line at the bottom of Vim
 
-let g:git_branch_status_nogit="Git [none detected]"
-
-set statusline=%w%h%m%r " Options
-set statusline+=%{fugitive#statusline()}
-set statusline+=\ [%{getcwd()}/%f]          " current dir
-set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
+let g:airline_powerline_fonts = 1
 
 " for changing the case of a visual selection, uses '~' key
 function! TwiddleCase(str)
