@@ -23,6 +23,7 @@ call pathogen#helptags()
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
+let ropevim_vim_completion=1
 
 " for changing the case of a visual selection, uses '~' key
 function! TwiddleCase(str)
