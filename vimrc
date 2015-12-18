@@ -23,7 +23,6 @@ call pathogen#helptags()
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
-let ropevim_vim_completion=1
 
 " for changing the case of a visual selection, uses '~' key
 function! TwiddleCase(str)
@@ -46,3 +45,12 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
+"syntastic 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
