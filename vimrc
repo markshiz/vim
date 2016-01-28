@@ -13,9 +13,12 @@ set hlsearch
 set number
 set t_Co=256
 colors ir_black
-set bg=light
+set bg=dark
 set autoindent
 set cindent
+set ignorecase
+set smartcase
+set incsearch
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -50,7 +53,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+let g:syntastic_python_checkers = ['flake8']
