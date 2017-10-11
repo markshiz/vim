@@ -6,10 +6,6 @@ syntax on
 filetype plugin on
 filetype plugin indent on
 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set smarttab
 set hlsearch
 set number
 set t_Co=256
@@ -63,7 +59,12 @@ let g:go_fmt_command = "goimports"
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
+" show tabs
 set list
 set listchars=tab:>-
+
+" tab settings
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
