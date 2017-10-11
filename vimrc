@@ -10,7 +10,6 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set smarttab
-set expandtab
 set hlsearch
 set number
 set t_Co=256
@@ -66,3 +65,5 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 set list
 set listchars=tab:>-
+set expandtab
+
