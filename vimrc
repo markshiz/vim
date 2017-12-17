@@ -8,9 +8,6 @@ filetype plugin indent on
 
 set hlsearch
 set number
-set t_Co=256
-colors ir_black
-set bg=dark
 set autoindent
 set cindent
 set ignorecase
@@ -20,6 +17,9 @@ set incsearch
 call pathogen#infect()
 call pathogen#helptags()
 
+set t_Co=256
+set bg=dark
+colors afterglow
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
