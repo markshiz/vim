@@ -23,6 +23,7 @@ colors PaperColor
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
+let g:airline_theme = 'papercolor'
 
 " for changing the case of a visual selection, uses '~' key
 function! TwiddleCase(str)
