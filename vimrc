@@ -18,8 +18,8 @@ call pathogen#infect()
 call pathogen#helptags()
 
 set t_Co=256
-set bg=dark
-colors afterglow
+set bg=light
+colors PaperColor
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
@@ -67,4 +67,5 @@ set listchars=tab:>-
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
 
