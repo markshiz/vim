@@ -19,11 +19,11 @@ call pathogen#helptags()
 
 set t_Co=256
 set bg=light
-colors PaperColor
+colors Dracula
 set laststatus=2 " Enables the status line at the bottom of Vim
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'papercolor'
+let g:airline_theme = 'dracula'
 
 " for changing the case of a visual selection, uses '~' key
 function! TwiddleCase(str)
